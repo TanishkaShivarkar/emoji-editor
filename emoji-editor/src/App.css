@@ -1,7 +1,26 @@
+body {
+  background-color: #f0f4ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen center */
+  margin: 0;
+}
+
 .container {
   text-align: center;
-  font-family: Arial, sans-serif;
-  margin-top: 40px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+.emoji-picker {
+  margin: 20px 0;
 }
 
 .emoji-picker button {
@@ -10,12 +29,24 @@
   cursor: pointer;
   border: none;
   background: none;
+  transition: transform 0.2s;
+}
+
+.emoji-picker button:hover {
+  transform: scale(1.2);
+}
+
+.emoji-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .emoji-box {
-  margin: 30px;
+  margin: 20px;
 }
 
 input[type="range"] {
   width: 200px;
 }
+

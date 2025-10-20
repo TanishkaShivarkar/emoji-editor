@@ -5,7 +5,7 @@ function App() {
   const [emoji, setEmoji] = useState("😀");
   const [size, setSize] = useState(150);
 
-  const emojis = ["😀", "😍", "😎", "🤩", "🐶", "🍕"];
+  const emojis = ["😀", "😍", "😎", "🤩", "❤️", "🌸"];
 
   return (
     <div className="container">
