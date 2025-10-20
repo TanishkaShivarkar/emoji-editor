@@ -1,16 +1,41 @@
-# React + Vite
+# 🎨 Emoji Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Emoji Editor made using **React**.  
+You can click on any emoji and change its size using a slider.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 6 different emojis 😄😍😎🤩❤️🌸  
+- Slider to change emoji size  
+- Everything is neatly centered on the screen  
+- Easy and fun to use  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧩 Technologies Used
+- HTML  
+- CSS  
+- JavaScript  
+- React (Vite)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ How to Run
+1. Install Node.js (if not installed):
+node -v
+npm -v
+
+2. Clone or download this repository:
+git clone <repo-link>
+cd emoji-editor
+
+3. Install project dependencies:
+npm install
+
+4. Start the development server:
+npm run dev
+
+5. Open in your browser
+http://localhost:5173/
+
