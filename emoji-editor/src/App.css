@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+}
+
+.emoji-picker button {
+  font-size: 30px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.emoji-box {
+  margin: 30px;
+}
+
+input[type="range"] {
+  width: 200px;
+}
